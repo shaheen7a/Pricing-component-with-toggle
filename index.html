@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css">
+    <link type='text/css' rel="stylesheet" href="./css/style.css">
     <title>Pricing component</title>
 
     <style>
@@ -33,16 +33,16 @@
     </style>
   </head>
   <body>
-    <div class="bg-top">
-      <img src="./images/bg-top.svg" alt="">
+    <div role="backgound" class="bg-top">
+      <img src="./images/bg-top.svg" alt="backgound">
     </div>
 
-    <div class="bg-bottom">
-      <img src="./images/bg-bottom.svg" alt="">
+    <div role="backgound" class="bg-bottom">
+      <img src="./images/bg-bottom.svg" alt="backgound">
     </div>
 
-    <div class="main-header">
-      <div class="container">
+    <div role="header" class="main-header">
+      <div role="container" class="container">
         <div class="header">
           <h1 class="text-center text-black-50">Our Pricing</h1>
           <div class="price-btn d-flex justify-content-center text-center align-items-center">
@@ -65,11 +65,11 @@
         </div>
       </div>
     </div>
-    <section class="price-cards">
+    <section role="cards" class="price-cards">
       <div class="row text-center">
 
         <!-- First Card -->
-        <div class="col-4 first-card">
+        <div role="1st-card" class="col-4 first-card">
           <div class="basic-card">
             <h2>Basic</h2>
             <div class="price-num">
@@ -93,7 +93,7 @@
         </div>
 
         <!-- Second Card -->
-        <div class="col-4 second-card">
+        <div role="2nd-card" class="col-4 second-card">
           <div class="pro-card  text-light">
             <h2>Professional</h2>
             <div class="price-num">
@@ -117,7 +117,7 @@
         </div>
 
         <!-- Third Card -->
-        <div class="col-4 third-card">
+        <div role="3rd-card" class="col-4 third-card">
             <div class="master-card">
               <h2>Master</h2>
               <div class="price-num">
@@ -143,7 +143,7 @@
       </div>
     </section>
   
-    <div style="margin-top: -314px;" class="attribution">
+    <div role="attribution" class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a

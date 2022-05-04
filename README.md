@@ -18,6 +18,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 - Semantic HTML5 markup
 - CSS custom properties
 - Bootstrap
+- Sass
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
