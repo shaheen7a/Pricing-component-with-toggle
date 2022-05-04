@@ -1,0 +1,90 @@
+@media (min-width: 374px) and (max-width: 600px) {
+  .bg-top {
+    z-index: -1;
+
+    img {
+      height: 580px;
+      margin-right: -165px;
+      margin-top: -29px;
+
+    }
+  }
+
+  .bg-bottom {
+    display: none;
+  }
+
+  .main-header {
+    .container {
+      .header {
+        h1 {
+          font-size: 32px;
+        }
+
+        .ann, .mon {
+          font-size: 14px;
+        }
+
+        .price-btn {
+          .button-bg {
+            width: 62%;
+            padding: 4px;
+          }
+
+          .button-switch {
+            width: 22px;
+            height: 22px;
+          }
+          .button-switch-on {
+            left: 23px;
+          }
+        }
+
+        .mon {
+          margin-left: 22px;
+        }
+        .ann {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+
+  .price-cards {
+    position:relative;
+    width: 85%;
+    margin-top: 400px;
+    .row {
+      @include center-flex;
+
+      .first-card {
+        width: 90%;
+        border-radius: 10px;
+      }
+
+      .second-card {
+        margin-top: 30px;
+        width: 90%;
+        border-radius: 10px;
+      }
+
+      .third-card {
+        margin-top: 30px;
+        width: 90%;
+        border-radius: 10px
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}

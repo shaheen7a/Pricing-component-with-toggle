@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pricing component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-top">
+      <img src="./images/bg-top.svg" alt="">
+    </div>
+
+    <div class="bg-bottom">
+      <img src="./images/bg-bottom.svg" alt="">
+    </div>
+
+    <div class="main-header">
+      <div class="container">
+        <div class="header">
+          <h1 class="text-center text-black-50">Our Pricing</h1>
+          <div class="price-btn d-flex justify-content-center text-center align-items-center">
+          
+          <span class="ann text-black-50">Annually</span>
+          <div class="switcher">
+
+            <div class="button-wrap">
+              <div class="button-bg">
+                <div class="button-out"></div>
+                <div class="button-in"></div>
+                <div class="button-switch button-switch-off"></div>
+              </div>
+            </div>
+
+          </div>
+          <span class="mon text-black-50">Monthly</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <section class="price-cards">
+      <div class="row text-center">
+
+        <!-- First Card -->
+        <div class="col-4 first-card">
+          <div class="basic-card">
+            <h2>Basic</h2>
+            <div class="price-num">
+              <span>&dollar;</span>
+              <h1 id="basic-h">199.99</h1>
+            </div>
+
+            <div class="b-line"></div>
+            <span>500 GB Storage</span>
+            <div class="b-line"></div>
+            <span>2 Users Allowed</span>
+            <div class="b-line"></div>
+            <span>Send up to 3 GB</span>
+            <div class="b-line"></div>
+
+
+            <div class="learn-btn">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-4 second-card">
+          <div class="pro-card  text-light">
+            <h2>Professional</h2>
+            <div class="price-num">
+              <span>&dollar;</span>
+              <h1 id="pro-h">249.99</h1>
+            </div>
+
+            <div class="w-line"></div>
+            <span>1 TB Storage</span>
+            <div class="w-line"></div>
+            <span>5 Users Allowed</span>
+            <div class="w-line"></div>
+            <span>Send up to 10 GB</span>
+            <div class="w-line"></div>
+
+
+            <div class="learn-btn">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="col-4 third-card">
+            <div class="master-card">
+              <h2>Master</h2>
+              <div class="price-num">
+                <span>&dollar;</span>
+                <h1 id="master-h">399.99</h1>
+              </div>
+
+              <div class="b-line"></div>
+              <span>2 TB Storage</span>
+              <div class="b-line"></div>
+              <span>10 Users Allowed</span>
+              <div class="b-line"></div>
+              <span>Send up to 20 GB</span>
+              <div class="b-line"></div>
+
+              
+              <div class="learn-btn">
+                <a href="#">Learn More</a>
+              </div>
+        </div>
+        </div>
+
+      </div>
+    </section>
+  
+    <div style="margin-top: -314px;" class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Aous Shaheen</a>.
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

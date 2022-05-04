@@ -1,0 +1,28 @@
+// Colors
+
+// Primary
+
+$gradient01: hsl(236, 72%, 79%);
+$gradient02: hsl(237, 63%, 64%);
+
+// Neutral
+
+$veryLightGrayishBlue: hsl(240, 78%, 98%);
+$lightGrayishBlue: hsl(234, 14%, 74%);
+$grayishBlue: hsl(233, 13%, 49%);
+$darkGrayishBlue: hsl(232, 13%, 33%);
+
+$bgColor: #f7f7ff;
+$white: #ffffff;
+
+
+// Fonts
+
+$bodyFont: 15px;
+
+
+@import './global';
+@import './mixins';
+@import './header';
+@import './cards';
+@import './mobilemedia';

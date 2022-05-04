@@ -1,0 +1,119 @@
+.price-cards {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  .first-card {
+    background-color: $white;
+    height: 460px;
+    border-radius: 10px 0 0 10px;
+    .basic-card {
+      h2 {
+        font-size: 22px;
+        font-weight: 600;
+        opacity: 0.6;
+        padding: 40px 0;
+      }
+
+      .price-num {
+        @include price;
+      }
+
+      span {
+        font-weight: 600;
+      }
+
+      .learn-btn {
+        @include learn-btn;
+        background-image: linear-gradient(-45deg, $gradient01, $gradient02);
+        a {
+          color: $white;
+        }
+        &:hover {
+          background-image: none;
+          border: 1px solid  $gradient02;
+          a{
+            color: $gradient02;
+          };
+        }
+      }
+    }
+  }
+
+  .second-card {
+    height: 500px;
+    margin-top: -18px;
+    background-image: linear-gradient(120deg, $gradient01, $gradient02);
+    border-radius: 10px;
+    .pro-card {
+      h2 {
+        font-size: 22px;
+        font-weight: 600;
+        padding: 40px 0;
+        margin-top: 16px
+      }
+
+      .price-num {
+        @include price;
+      }
+
+      span {
+        font-weight: 600;
+      }
+
+      .learn-btn {
+        @include learn-btn;
+        background-color: $white;
+        a {
+          color: $gradient02;
+        }
+        &:hover {
+          background-image: none;
+          background-color: transparent;
+          border: 1px solid  $white;
+          a{
+            color: $white;
+          };
+        }
+      }
+    }
+  }
+
+  .third-card {
+    height: 460px;
+    background-color: $white;
+    border-radius: 0 10px 10px 0;
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      opacity: 0.6;
+      padding: 40px 0;
+    }
+
+    .price-num {
+      @include price;
+    }
+
+    span {
+      font-weight: 600;
+    }
+
+    .learn-btn {
+      @include learn-btn;
+      background-image: linear-gradient(-45deg, $gradient01, $gradient02);
+      a {
+        color: $white;
+      }
+      &:hover {
+        background-image: none;
+        border: 1px solid  $gradient02;
+        a{
+          color: $gradient02;
+        };
+      }
+    }
+  }
+
+}

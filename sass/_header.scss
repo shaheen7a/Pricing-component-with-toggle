@@ -1,0 +1,83 @@
+.main-header {
+  margin-top: 70px;
+  width: 100%;
+  .container {
+    .header {
+      h1 {
+        width: 100%;
+        font-weight: 700;
+      }
+
+      .ann, .mon {
+        font-weight: 600;
+      }
+
+      .switcher {
+        margin-top: -35px;
+        width: 13%;
+      }
+
+      .price-btn {
+        margin-top: 50px;
+
+        .button-wrap {
+          width: 90px;
+          margin: 40px auto 0;
+          cursor: pointer;
+        }
+
+        .button-bg {
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(to right, $gradient01, $gradient02);
+          border-radius: 40px;
+          padding: 3px;
+          color: #fff;
+          transition: all 0.2s ease;
+        }
+
+        .button-switch {
+          position: relative;
+          width: 37px;
+          height: 35px;
+          border: solid 13px;
+          background-color: #fff;
+          border-radius: 36px;
+          transition: all 0.2s ease;
+        }
+        .button-switch-off {
+          left: 0px;
+        }
+        .button-switch-on {
+          left: 45px;
+        }
+
+        .button-active .button-switch {
+          left: 50px;
+        }
+
+        .button-in,
+        .button-out {
+          position: absolute;
+          transition: all 0.2s ease;
+          padding-top: 15px;
+          font-size: 0.8em;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+
+        .button-in {
+          margin-left: 76px;
+        }
+
+        .button-out {
+          margin-left: 18px;
+        }
+
+        .button-active .button-bg {
+          background-color: #22bb22;
+        }
+      }
+    }
+  }
+}
