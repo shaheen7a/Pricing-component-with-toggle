@@ -1,6 +1,9 @@
 # Frontend Mentor - Pricing component with toggle solution
 
-This is a solution to the [Pricing component with toggle challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![Design preview for the Clipboard landing page coding challenge](./images/desktop-preview.jpg)
+
+## Welcome! 👋
+Thanks for checking out this front-end coding challenge.
 
 ## Overview
 
@@ -22,8 +25,13 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Font Awesome
 
-By Me :)
+
+## Author
+
+- Frontend Mentor - [@shaheen121](https://www.frontendmentor.io/profile/Shaheen121)
+- Facebook - [@aoushaheen7](https://www.facebook.com/shaheen7tl/)
+
+By me 🚀🚀🚀
 Aous Shaheen
-
-Thank you
